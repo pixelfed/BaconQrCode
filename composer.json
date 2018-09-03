@@ -1,12 +1,12 @@
 {
-    "name": "bacon/bacon-qr-code",
+    "name": "pixelfed/bacon-qr-code",
     "description": "BaconQrCode is a QR code generator for PHP.",
     "license" : "BSD-2-Clause",
-    "homepage": "https://github.com/Bacon/BaconQrCode",
+    "homepage": "https://github.com/pixelfed/BaconQrCode",
     "require": {
         "php": "^7.1",
         "ext-iconv": "*",
-        "dasprid/enum": "^1.0"
+        "pixelfed/enum": "^1.0"
     },
     "suggest": {
         "ext-imagick": "to generate QR code images"
@@ -23,10 +23,5 @@
         "psr-4": {
             "BaconQrCode\\": "src/"
         }
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^6.4",
-        "squizlabs/php_codesniffer": "^3.1",
-        "phly/keep-a-changelog": "^1.4"
     }
 }
