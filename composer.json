@@ -5,8 +5,7 @@
     "homepage": "https://github.com/pixelfed/BaconQrCode",
     "require": {
         "php": "^7.1",
-        "ext-iconv": "*",
-        "pixelfed/enum": "^1.0"
+        "ext-iconv": "*"
     },
     "suggest": {
         "ext-imagick": "to generate QR code images"
